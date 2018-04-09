@@ -1,0 +1,66 @@
+Requisitos para el trabajo
+
+Menu principal
+  User ID
+  Password
+  Forgot Password
+
+Informacion estudiante - general
+  Nombre
+  Apellido
+    Paterno
+    Materno
+  Departamento
+    Concentracion
+  Año ingresado
+    Los años ingresados funcionan asi:
+      El año empieza en agosto. Termina el año en mayo. Se separa por semestres:
+      Agosto - diciembre
+      Enero - mayo
+
+      Ejemplo:
+      2018-10 = Agosto - Diciembre del 2018
+      2018-30 = Enero - Mayo del 2019
+
+      Formato:
+      [año]-[id del semestre](10/30)
+
+  Transferencia (aplica si el estudiante viene de otra universidad)
+    Universidad de la cual viene
+    Creditos que tiene en la otra Universidad
+    Creditos que se le convalidan en la universidad que va a estudiar ahora
+  Telefono
+    Residencial
+    Celular
+    trabajo
+  trabajo
+    Lugar de trabajo
+    Direccion fisica
+
+Informacion estudiante - clases
+  semestre
+    Codigo semestre
+    Nombre curso
+    Codigo curso
+    Creditos del curso
+    Notas
+      #1 = 90
+      #2 = 65
+      #3 = 79
+      #4 = 100
+    Promedio del estudiante
+      Sumar total de cada nota / Total de notas dadas HASTA AHORA
+      Ejemplo:
+      ( 90 + 65 + 79 + 100 ) / 4
+
+Actividades (Preguntar a Giovanni de esto)
+  Codigo semestres
+  Actividades
+    Descripcion
+    Fecha
+
+Gastos semestre estudiante
+  Codigo semestres
+  Total Creditos
+  Total beca
+  Balance [adeudado/sobrante]
