@@ -10,4 +10,6 @@ Proyecto que quiere hacer Giovanni
 2. Edwin Cosme Mercado
 3. Eddie R. Rivera Figueroa
 
+## Meta del programa
+Hacer un programa para administrar informacion personal y estudiantil del estudiante.
  
