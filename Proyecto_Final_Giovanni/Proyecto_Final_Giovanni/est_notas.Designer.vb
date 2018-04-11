@@ -113,7 +113,7 @@ Partial Class est_notas
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(31, 401)
+        Me.Button1.Location = New System.Drawing.Point(28, 401)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 10
