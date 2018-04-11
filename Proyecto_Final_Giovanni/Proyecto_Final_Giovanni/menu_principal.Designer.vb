@@ -75,7 +75,7 @@ Partial Class menu_principal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(357, 461)
+        Me.ClientSize = New System.Drawing.Size(542, 474)
         Me.Controls.Add(Me.btn_acceder)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)

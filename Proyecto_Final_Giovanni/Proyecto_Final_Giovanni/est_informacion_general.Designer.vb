@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class informacion_general_est
+Partial Class est_informacion_general
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
