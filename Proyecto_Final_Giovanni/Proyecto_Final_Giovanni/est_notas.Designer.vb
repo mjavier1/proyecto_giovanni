@@ -22,7 +22,7 @@ Partial Class est_notas
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.codigo_semestre = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -42,14 +42,14 @@ Partial Class est_notas
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'ComboBox1
+        'codigo_semestre
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"2018-10 (Ago-Dec 2017)", "2018-30 (Ene-May 2018)", "2019-10 (Ago-Dec 2018)"})
-        Me.ComboBox1.Location = New System.Drawing.Point(145, 23)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 0
+        Me.codigo_semestre.FormattingEnabled = True
+        Me.codigo_semestre.Items.AddRange(New Object() {"2018-10 (Ago-Dec 2017)", "2018-30 (Ene-May 2018)", "2019-10 (Ago-Dec 2018)"})
+        Me.codigo_semestre.Location = New System.Drawing.Point(145, 23)
+        Me.codigo_semestre.Name = "codigo_semestre"
+        Me.codigo_semestre.Size = New System.Drawing.Size(121, 21)
+        Me.codigo_semestre.TabIndex = 0
         '
         'Label1
         '
@@ -213,7 +213,7 @@ Partial Class est_notas
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.codigo_semestre)
         Me.Name = "est_notas"
         Me.Text = "Estudiante - Notas"
         Me.ResumeLayout(False)
@@ -221,7 +221,7 @@ Partial Class est_notas
 
     End Sub
 
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents codigo_semestre As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
