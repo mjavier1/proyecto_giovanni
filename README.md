@@ -3,7 +3,7 @@ Proyecto que quiere hacer Giovanni
 
 ## Lenguajes de programacion:
 1. Visual Basic
-2. XAMPP (MySQL)
+2. XAMPP (MySQL) (Apache)
 
 ## Integrantes del equipo:
 1. Marcos Aguirre
