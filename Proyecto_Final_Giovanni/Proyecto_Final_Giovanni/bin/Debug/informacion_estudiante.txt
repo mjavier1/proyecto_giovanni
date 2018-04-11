@@ -1,4 +1,4 @@
-2019-10 (Ago-Dec 2018)
+2018-30
 COMP2150
 Computacion Visual
 3 creditos
@@ -9,3 +9,7 @@ Computacion Visual
 60
 60
 60
+--Promedio--
+
+
+53

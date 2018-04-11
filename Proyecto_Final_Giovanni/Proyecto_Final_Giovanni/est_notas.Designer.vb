@@ -40,6 +40,13 @@ Partial Class est_notas
         Me.nota3 = New System.Windows.Forms.TextBox()
         Me.nota4 = New System.Windows.Forms.TextBox()
         Me.codigo_curso = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.nota5 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'codigo_semestre
@@ -113,7 +120,7 @@ Partial Class est_notas
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(28, 401)
+        Me.Button1.Location = New System.Drawing.Point(332, 97)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 10
@@ -141,7 +148,7 @@ Partial Class est_notas
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(334, 309)
+        Me.Label8.Location = New System.Drawing.Point(249, 309)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(39, 13)
         Me.Label8.TabIndex = 13
@@ -150,7 +157,7 @@ Partial Class est_notas
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(446, 309)
+        Me.Label9.Location = New System.Drawing.Point(361, 309)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(39, 13)
         Me.Label9.TabIndex = 14
@@ -172,14 +179,14 @@ Partial Class est_notas
         '
         'nota3
         '
-        Me.nota3.Location = New System.Drawing.Point(337, 334)
+        Me.nota3.Location = New System.Drawing.Point(252, 334)
         Me.nota3.Name = "nota3"
         Me.nota3.Size = New System.Drawing.Size(63, 20)
         Me.nota3.TabIndex = 17
         '
         'nota4
         '
-        Me.nota4.Location = New System.Drawing.Point(449, 334)
+        Me.nota4.Location = New System.Drawing.Point(364, 334)
         Me.nota4.Name = "nota4"
         Me.nota4.Size = New System.Drawing.Size(63, 20)
         Me.nota4.TabIndex = 18
@@ -191,11 +198,75 @@ Partial Class est_notas
         Me.codigo_curso.Size = New System.Drawing.Size(121, 20)
         Me.codigo_curso.TabIndex = 19
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(449, 97)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 20
+        Me.Button2.Text = "Actividades"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(28, 383)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(51, 13)
+        Me.Label10.TabIndex = 21
+        Me.Label10.Text = "Promedio"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(28, 423)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(80, 13)
+        Me.Label11.TabIndex = 22
+        Me.Label11.Text = "Nota final clase"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(145, 380)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(63, 20)
+        Me.TextBox1.TabIndex = 23
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(145, 420)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(63, 20)
+        Me.TextBox2.TabIndex = 24
+        '
+        'nota5
+        '
+        Me.nota5.Location = New System.Drawing.Point(460, 334)
+        Me.nota5.Name = "nota5"
+        Me.nota5.Size = New System.Drawing.Size(63, 20)
+        Me.nota5.TabIndex = 26
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(457, 309)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(70, 13)
+        Me.Label12.TabIndex = 25
+        Me.Label12.Text = "Nota 5 (Final)"
+        '
         'est_notas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(542, 474)
+        Me.Controls.Add(Me.nota5)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.codigo_curso)
         Me.Controls.Add(Me.nota4)
         Me.Controls.Add(Me.nota3)
@@ -239,4 +310,11 @@ Partial Class est_notas
     Friend WithEvents nota3 As TextBox
     Friend WithEvents nota4 As TextBox
     Friend WithEvents codigo_curso As TextBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents nota5 As TextBox
+    Friend WithEvents Label12 As Label
 End Class
