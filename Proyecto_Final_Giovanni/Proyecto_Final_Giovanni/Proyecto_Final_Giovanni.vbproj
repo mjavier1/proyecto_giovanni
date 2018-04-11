@@ -72,11 +72,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="informacion_general_est.Designer.vb">
+      <DependentUpon>informacion_general_est.vb</DependentUpon>
+    </Compile>
+    <Compile Include="informacion_general_est.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="menu_principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_principal.Designer.vb">
+      <DependentUpon>menu_principal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,10 +100,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="variables_globales.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="informacion_general_est.resx">
+      <DependentUpon>informacion_general_est.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_principal.resx">
+      <DependentUpon>menu_principal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
