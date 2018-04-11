@@ -11,3 +11,7 @@ C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giov
 C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.exe
 C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.xml
 C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.pdb
+C:\Users\eriv6096\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\bin\Debug\Proyecto_Final_Giovanni.exe.config
+C:\Users\eriv6096\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.exe
+C:\Users\eriv6096\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.xml
+C:\Users\eriv6096\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.pdb
