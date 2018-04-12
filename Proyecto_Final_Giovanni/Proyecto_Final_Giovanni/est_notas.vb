@@ -15,6 +15,7 @@ Public Class est_notas
         nota2.Text = 60
         nota3.Text = 60
         nota4.Text = 60
+        nota5.Text = 60
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -40,7 +41,7 @@ Public Class est_notas
         For n As Integer = 0 To 4
             prom = prom + notas_est(n)
         Next
-        prom = prom / notas_est.Length
+        prom = prom / (notas_est.Length - 1)
         TextBox1.Text = prom
         nota_final = Val(nota5.Text)
         TextBox2.Text = prom
