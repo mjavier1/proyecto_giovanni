@@ -2,20 +2,20 @@
 Public Class est_notas
     Private Sub est_notas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim cod_semestre As String = "2018-30"
-        Dim cod_curso As String = "COMP2150"
+        Dim cod_curso As String = "Selecciona"
         Dim n_curso As String = "Computacion Visual"
         Dim cr_curso As String = "3"
 
         codigo_semestre.Text = cod_semestre
         codigo_curso.Text = cod_curso
-        nombre_curso.Text = n_curso
+        'nombre_curso.Text = n_curso
         creditos_curso.Text = cr_curso
 
         nota1.Text = 60
-        nota2.Text = 60
-        nota3.Text = 60
-        nota4.Text = 60
-        nota5.Text = 60
+        nota2.Text = 90
+        nota3.Text = 75
+        nota4.Text = 80
+        nota5.Text = 100
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -65,5 +65,61 @@ Public Class est_notas
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Visible = False
         est_Actividades_Universitarias.Show()
+    End Sub
+
+    Private Sub codigo_curso_SelectedIndexChanged(sender As Object, e As EventArgs) Handles codigo_curso.SelectedIndexChanged
+        Dim cc As ComboBox = codigo_curso 'ComboBox2
+        Dim n_clase(5) As String
+
+        '2018-10 (Ago-Dec 2017)
+        '2018-30 (Ene-May 2018)
+        '2019-10 (Ago-Dec 2018)
+
+        n_clase(0) = "Computacion Visual"
+        n_clase(1) = "Organización y Arquitectura de Computadoras"
+        n_clase(2) = "Sistemas Operativos"
+        n_clase(3) = "Ingenieria de Softwares"
+        n_clase(4) = "Ingenieria de Softwares"
+        Try
+            If (cc.SelectedIndex = 0) Then
+                nombre_curso.Text = n_clase(0)
+            ElseIf (cc.SelectedIndex = 1) Then
+                nombre_curso.Text = n_clase(1)
+            ElseIf (cc.SelectedIndex = 2) Then
+                nombre_curso.Text = n_clase(2)
+            ElseIf (cc.SelectedIndex = 3) Then
+                nombre_curso.Text = n_clase(3)
+            ElseIf (cc.SelectedIndex = 4) Then
+                nombre_curso.Text = n_clase(4)
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub codigo_semestre_SelectedIndexChanged(sender As Object, e As EventArgs) Handles codigo_semestre.SelectedIndexChanged
+        Dim cs As ComboBox = codigo_semestre 'ComboBox1
+        Dim cc As ComboBox = codigo_curso 'ComboBox2
+        Try
+            If cs.SelectedIndex = 0 Then
+                If Not (cc.Items.Contains("COMP3300")) And Not (cc.Items.Contains("COMP3900")) Then
+                    cc.Items.Add("COMP3300")
+                    cc.Items.Add("COMP3900")
+                End If
+            ElseIf cs.SelectedIndex = 1 Then
+                If Not (cc.Items.Contains("COMP3500")) And Not (cc.Items.Contains("COMP3400")) Then
+                    cc.Items.Add("COMP3500")
+                    cc.Items.Add("COMP3400")
+                End If
+            ElseIf cs.SelectedIndex = 2 Then
+                If Not (cc.Items.Contains("COMP4200")) Then
+                    cc.Items.Add("COMP4200")
+
+                End If
+            End If
+
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class

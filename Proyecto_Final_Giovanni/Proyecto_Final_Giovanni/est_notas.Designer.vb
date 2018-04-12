@@ -39,7 +39,6 @@ Partial Class est_notas
         Me.nota2 = New System.Windows.Forms.TextBox()
         Me.nota3 = New System.Windows.Forms.TextBox()
         Me.nota4 = New System.Windows.Forms.TextBox()
-        Me.codigo_curso = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -47,6 +46,7 @@ Partial Class est_notas
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.nota5 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.codigo_curso = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'codigo_semestre
@@ -191,13 +191,6 @@ Partial Class est_notas
         Me.nota4.Size = New System.Drawing.Size(63, 20)
         Me.nota4.TabIndex = 18
         '
-        'codigo_curso
-        '
-        Me.codigo_curso.Location = New System.Drawing.Point(145, 94)
-        Me.codigo_curso.Name = "codigo_curso"
-        Me.codigo_curso.Size = New System.Drawing.Size(121, 20)
-        Me.codigo_curso.TabIndex = 19
-        '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(449, 97)
@@ -255,11 +248,20 @@ Partial Class est_notas
         Me.Label12.TabIndex = 25
         Me.Label12.Text = "Nota 5 (Final)"
         '
+        'codigo_curso
+        '
+        Me.codigo_curso.FormattingEnabled = True
+        Me.codigo_curso.Location = New System.Drawing.Point(145, 97)
+        Me.codigo_curso.Name = "codigo_curso"
+        Me.codigo_curso.Size = New System.Drawing.Size(121, 21)
+        Me.codigo_curso.TabIndex = 27
+        '
         'est_notas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(542, 474)
+        Me.Controls.Add(Me.codigo_curso)
         Me.Controls.Add(Me.nota5)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.TextBox2)
@@ -267,7 +269,6 @@ Partial Class est_notas
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.codigo_curso)
         Me.Controls.Add(Me.nota4)
         Me.Controls.Add(Me.nota3)
         Me.Controls.Add(Me.nota2)
@@ -309,7 +310,6 @@ Partial Class est_notas
     Friend WithEvents nota2 As TextBox
     Friend WithEvents nota3 As TextBox
     Friend WithEvents nota4 As TextBox
-    Friend WithEvents codigo_curso As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
@@ -317,4 +317,5 @@ Partial Class est_notas
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents nota5 As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents codigo_curso As ComboBox
 End Class

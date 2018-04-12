@@ -1,15 +1,15 @@
-2018-30
-COMP2150
-Computacion Visual
+2019-10 (Ago-Dec 2018)
+COMP4200
+Sistemas Operativos
 3 creditos
 
 
 --NOTAS ESTUDIANTE--
 60
-60
-60
-60
+90
+75
+80
 --Promedio--
 
 
-60
+81
