@@ -1,12 +1,12 @@
 ﻿Imports System.IO
 Public Class est_notas
     Private Sub est_notas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim cod_semestre As String = "2018-30"
+        'Dim cod_semestre As String = "2018-30"
         Dim cod_curso As String = "Selecciona"
         Dim n_curso As String = "Computacion Visual"
         Dim cr_curso As String = "3"
 
-        codigo_semestre.Text = cod_semestre
+        codigo_semestre.Text = "2018-10 (Ago-Dec 2017)"
         codigo_curso.Text = cod_curso
         'nombre_curso.Text = n_curso
         creditos_curso.Text = cr_curso
@@ -57,7 +57,8 @@ Public Class est_notas
             Next
             sw.WriteLine("--Promedio--")
             sw.WriteLine(Environment.NewLine)
-            sw.WriteLine(prom)
+            sw.WriteLine("Promedio estudiante: " & prom)
+            sw.WriteLine("Nota final: " & nota_final)
         End Using
         MsgBox("Informacion guardada")
     End Sub
