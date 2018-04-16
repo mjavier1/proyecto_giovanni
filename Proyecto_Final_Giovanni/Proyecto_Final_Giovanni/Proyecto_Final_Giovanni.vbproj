@@ -90,10 +90,10 @@
     <Compile Include="est_notas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="est_informacion_general.Designer.vb">
-      <DependentUpon>est_informacion_general.vb</DependentUpon>
+    <Compile Include="informacion_general_est.Designer.vb">
+      <DependentUpon>informacion_general_est.vb</DependentUpon>
     </Compile>
-    <Compile Include="est_informacion_general.vb">
+    <Compile Include="informacion_general_est.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="menu_principal.vb">
@@ -127,11 +127,11 @@
     <EmbeddedResource Include="est_Informacion_Financiera.resx">
       <DependentUpon>est_Informacion_Financiera.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="est_informacion_general.resx">
-      <DependentUpon>est_informacion_general.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="est_notas.resx">
       <DependentUpon>est_notas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="informacion_general_est.resx">
+      <DependentUpon>informacion_general_est.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu_principal.resx">
       <DependentUpon>menu_principal.vb</DependentUpon>
