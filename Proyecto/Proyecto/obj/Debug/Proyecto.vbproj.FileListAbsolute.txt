@@ -11,3 +11,7 @@ c:\users\eriv6096\documents\visual studio 2015\Projects\Proyecto\Proyecto\obj\De
 c:\users\eriv6096\documents\visual studio 2015\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
 c:\users\eriv6096\documents\visual studio 2015\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.Form2.resources
 c:\users\eriv6096\documents\visual studio 2015\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.Form3.resources
+C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto\Proyecto\obj\Debug\Proyecto.xml
+C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
