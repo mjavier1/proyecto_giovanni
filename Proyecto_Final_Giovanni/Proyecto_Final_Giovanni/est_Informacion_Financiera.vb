@@ -1,6 +1,6 @@
 ﻿Public Class est_Informacion_Financiera
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        MsgBox("Informacion guardada")
     End Sub
 
     Private Sub est_Informacion_Financiera_Load(sender As Object, e As EventArgs) Handles MyBase.Load
