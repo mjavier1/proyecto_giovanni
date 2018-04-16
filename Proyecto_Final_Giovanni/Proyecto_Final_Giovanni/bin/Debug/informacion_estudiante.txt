@@ -1,6 +1,6 @@
-2019-10 (Ago-Dec 2018)
-COMP4200
-Sistemas Operativos
+2018-10 (Ago-Dec 2017)
+Selecciona
+
 3 creditos
 
 
@@ -12,4 +12,5 @@ Sistemas Operativos
 --Promedio--
 
 
-81
+Promedio estudiante: 81
+Nota final: 100

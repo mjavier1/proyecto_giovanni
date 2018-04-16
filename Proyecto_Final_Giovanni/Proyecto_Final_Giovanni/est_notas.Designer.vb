@@ -287,6 +287,7 @@ Partial Class est_notas
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.codigo_semestre)
         Me.Name = "est_notas"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Estudiante - Notas"
         Me.ResumeLayout(False)
         Me.PerformLayout()
