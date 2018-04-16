@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class informacion_general_est
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -56,6 +56,7 @@ Partial Class Form2
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -332,11 +333,21 @@ Partial Class Form2
         Me.Button2.Text = "Log Off"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Form2
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(362, 645)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 50)
+        Me.Button3.TabIndex = 35
+        Me.Button3.Text = "Guardar informacion"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'informacion_general_est
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(564, 778)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox3)
@@ -371,7 +382,8 @@ Partial Class Form2
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form2"
+        Me.Name = "informacion_general_est"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -412,4 +424,5 @@ Partial Class Form2
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
 End Class
