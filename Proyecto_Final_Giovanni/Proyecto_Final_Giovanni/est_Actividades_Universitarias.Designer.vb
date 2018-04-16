@@ -28,7 +28,7 @@ Partial Class est_Actividades_Universitarias
         Me.Label3 = New System.Windows.Forms.Label()
         Me.actividad = New System.Windows.Forms.TextBox()
         Me.act_value = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.someter_inf = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -83,21 +83,21 @@ Partial Class est_Actividades_Universitarias
         Me.act_value.TabIndex = 5
         Me.act_value.Text = "1"
         '
-        'Button1
+        'someter_inf
         '
-        Me.Button1.Location = New System.Drawing.Point(234, 306)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 39)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Someter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "actividad" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.someter_inf.Location = New System.Drawing.Point(234, 306)
+        Me.someter_inf.Name = "someter_inf"
+        Me.someter_inf.Size = New System.Drawing.Size(75, 39)
+        Me.someter_inf.TabIndex = 6
+        Me.someter_inf.Text = "Someter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "actividad" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.someter_inf.UseVisualStyleBackColor = True
         '
         'est_Actividades_Universitarias
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(542, 474)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.someter_inf)
         Me.Controls.Add(Me.act_value)
         Me.Controls.Add(Me.actividad)
         Me.Controls.Add(Me.Label3)
@@ -117,5 +117,5 @@ Partial Class est_Actividades_Universitarias
     Friend WithEvents Label3 As Label
     Friend WithEvents actividad As TextBox
     Friend WithEvents act_value As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents someter_inf As Button
 End Class
