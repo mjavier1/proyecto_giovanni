@@ -116,6 +116,7 @@ Partial Class est_Actividades_Universitarias
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Name = "est_Actividades_Universitarias"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "est_Actividades_Universitarias"
         Me.ResumeLayout(False)
         Me.PerformLayout()

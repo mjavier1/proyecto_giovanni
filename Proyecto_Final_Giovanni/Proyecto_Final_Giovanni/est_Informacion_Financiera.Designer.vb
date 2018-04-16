@@ -143,6 +143,7 @@ Partial Class est_Informacion_Financiera
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.codigo_semestre)
         Me.Name = "est_Informacion_Financiera"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "est_Informacion_Financiera"
         Me.ResumeLayout(False)
         Me.PerformLayout()
