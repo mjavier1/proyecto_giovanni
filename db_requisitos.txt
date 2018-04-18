@@ -1,0 +1,9 @@
+db UNIVERSIDAD
+t INF_EST (Informacion general: Nombre completo, edad, fecha de nacimiento, estudiante a tiempo completo o parcial, num. telefono)
+	1. Nombre completo
+	2. Edad
+	3. Fecha de nacimiento
+	4. Estudiante a tiempo completo o parcial
+	5. Numero de telefono
+
+t INF_EST_UIRP (Informacion detallada del estudiante en la Universidad: Creditos completados, clases completadas por el estudiante, clases NO completadas por el estudiante, concentracion a estudiar, departamento de la concentracion)
