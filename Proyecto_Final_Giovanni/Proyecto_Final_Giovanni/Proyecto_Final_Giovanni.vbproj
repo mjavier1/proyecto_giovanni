@@ -160,6 +160,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
     <Content Include="proy_final_informacion_1.jpg" />
     <Content Include="proy_final_informacion_2.jpg" />
   </ItemGroup>
