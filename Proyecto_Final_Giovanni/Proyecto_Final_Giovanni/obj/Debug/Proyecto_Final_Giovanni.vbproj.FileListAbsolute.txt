@@ -6,7 +6,6 @@ C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\
 C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\bin\Debug\Proyecto_Final_Giovanni.xml
 C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.est_Actividades_Universitarias.resources
 C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.est_Informacion_Financiera.resources
-C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.est_informacion_general.resources
 C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.est_notas.resources
 C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.menu_principal.resources
 C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.Resources.resources
@@ -43,3 +42,4 @@ C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giov
 C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.menu_principal.resources
 C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.Resources.resources
 C:\Users\ecos1435\Documents\dev\trabajos_seg_comp\Proy_Final\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.vbproj.GenerateResource.Cache
+C:\Users\ecos1435\Documents\dev\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.informacion_general_est.resources
