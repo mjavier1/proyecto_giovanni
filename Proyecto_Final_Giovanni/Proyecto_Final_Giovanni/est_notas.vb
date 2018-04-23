@@ -17,13 +17,16 @@ Public Class est_notas
         nota4.Text = 80
         nota5.Text = 100
     End Sub
+    Private Sub Adding_Worksheet_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        Call AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
+    End Sub
 
     Public Sub New()
 
         ' This call is required by the designer.
         InitializeComponent()
-        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("C:\Users\ecos1435\Downloads\VBcourso\VBcourso\WindowsApplication1\WindowsApplication1\2019.pdf"))
-        AxAcroPDF1.LoadFile("C:\Users\ecos1435\Downloads\VBcourso\VBcourso\WindowsApplication1\WindowsApplication1\2019.pdf")
+        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf"))
+        AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
         ' Add any initialization after the InitializeComponent() call.
 
     End Sub

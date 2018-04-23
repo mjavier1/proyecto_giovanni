@@ -49,7 +49,7 @@ Partial Class est_notas
         Me.Label12 = New System.Windows.Forms.Label()
         Me.codigo_curso = New System.Windows.Forms.ComboBox()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.AxAcroPDF1 = New System.Windows.Forms.DataGridView()
+        Me.AxAcroPDF1 = New AxAcroPDFLib.AxAcroPDF()
         CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -271,10 +271,11 @@ Partial Class est_notas
         '
         'AxAcroPDF1
         '
-        Me.AxAcroPDF1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.AxAcroPDF1.Location = New System.Drawing.Point(641, 23)
+        Me.AxAcroPDF1.Enabled = True
+        Me.AxAcroPDF1.Location = New System.Drawing.Point(587, 12)
         Me.AxAcroPDF1.Name = "AxAcroPDF1"
-        Me.AxAcroPDF1.Size = New System.Drawing.Size(552, 417)
+        Me.AxAcroPDF1.OcxState = CType(resources.GetObject("AxAcroPDF1.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.AxAcroPDF1.Size = New System.Drawing.Size(626, 450)
         Me.AxAcroPDF1.TabIndex = 29
         '
         'est_notas
@@ -345,5 +346,5 @@ Partial Class est_notas
     Friend WithEvents Label12 As Label
     Friend WithEvents codigo_curso As ComboBox
     Friend WithEvents Button3 As Button
-    Friend WithEvents AxAcroPDF1 As DataGridView
+    Friend WithEvents AxAcroPDF1 As AxAcroPDFLib.AxAcroPDF
 End Class
