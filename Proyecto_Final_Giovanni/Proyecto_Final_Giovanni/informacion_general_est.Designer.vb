@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class informacion_general_est
-    Inherits System.Windows.Forms.Form
+    Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -22,6 +22,7 @@ Partial Class informacion_general_est
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(informacion_general_est))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -317,11 +318,11 @@ Partial Class informacion_general_est
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(455, 714)
+        Me.Button1.Location = New System.Drawing.Point(464, 698)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(75, 39)
         Me.Button1.TabIndex = 33
-        Me.Button1.Text = "Next >"
+        Me.Button1.Text = "Proximo Form >"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -330,7 +331,7 @@ Partial Class informacion_general_est
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 34
-        Me.Button2.Text = "Log Off"
+        Me.Button2.Text = "Salir "
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -382,6 +383,7 @@ Partial Class informacion_general_est
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "informacion_general_est"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
