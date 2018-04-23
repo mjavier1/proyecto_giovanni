@@ -62,9 +62,12 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="MetroFramework">
       <HintPath>..\..\..\..\..\Downloads\VBcourso (1)\VBcourso (1)\VBcourso\WindowsApplication1\WindowsApplication1\bin\Debug\MetroFramework.dll</HintPath>
     </Reference>
+=======
+>>>>>>> ddc73b242988aa73ad0322b503d3db3093661bf0
     <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\MySql.Data.dll</HintPath>
@@ -181,6 +184,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
     <Content Include="proy_final_informacion_1.jpg" />
     <Content Include="proy_final_informacion_2.jpg" />
   </ItemGroup>
