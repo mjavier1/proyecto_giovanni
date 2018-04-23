@@ -36,7 +36,7 @@ Public Class est_notas
 
         ' This call is required by the designer.
         InitializeComponent()
-        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf"))
+        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("~\2019.pdf"))
         AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
         ' Add any initialization after the InitializeComponent() call.
 
@@ -185,10 +185,5 @@ Public Class est_notas
         Catch ex As Exception
 
         End Try
-    End Sub
-
-    Private Sub est_notas_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-
-
     End Sub
 End Class
