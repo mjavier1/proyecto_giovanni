@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class est_notas
-    Inherits System.Windows.Forms.Form
+    Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class est_notas
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(est_notas))
         Me.codigo_semestre = New System.Windows.Forms.ComboBox()
@@ -50,6 +50,8 @@ Partial Class est_notas
         Me.codigo_curso = New System.Windows.Forms.ComboBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.AxAcroPDF1 = New AxAcroPDFLib.AxAcroPDF()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -57,7 +59,7 @@ Partial Class est_notas
         '
         Me.codigo_semestre.FormattingEnabled = True
         Me.codigo_semestre.Items.AddRange(New Object() {"2018-10 (Ago-Dec 2017)", "2018-30 (Ene-May 2018)", "2019-10 (Ago-Dec 2018)"})
-        Me.codigo_semestre.Location = New System.Drawing.Point(145, 23)
+        Me.codigo_semestre.Location = New System.Drawing.Point(145, 52)
         Me.codigo_semestre.Name = "codigo_semestre"
         Me.codigo_semestre.Size = New System.Drawing.Size(121, 21)
         Me.codigo_semestre.TabIndex = 0
@@ -65,7 +67,7 @@ Partial Class est_notas
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(25, 31)
+        Me.Label1.Location = New System.Drawing.Point(25, 60)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(85, 13)
         Me.Label1.TabIndex = 1
@@ -124,9 +126,9 @@ Partial Class est_notas
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(252, 378)
+        Me.Button1.Location = New System.Drawing.Point(325, 206)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(75, 33)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Someter"
         Me.Button1.UseVisualStyleBackColor = True
@@ -197,11 +199,11 @@ Partial Class est_notas
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(389, 92)
+        Me.Button2.Location = New System.Drawing.Point(460, 206)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 40)
+        Me.Button2.Size = New System.Drawing.Size(97, 33)
         Me.Button2.TabIndex = 20
-        Me.Button2.Text = "Ir al form" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Actividades"
+        Me.Button2.Text = "Form Actividades"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label10
@@ -264,25 +266,45 @@ Partial Class est_notas
         '
         Me.Button3.Location = New System.Drawing.Point(252, 417)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(75, 34)
         Me.Button3.TabIndex = 28
-        Me.Button3.Text = "Someter"
+        Me.Button3.Text = "Actualizar"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'AxAcroPDF1
         '
         Me.AxAcroPDF1.Enabled = True
-        Me.AxAcroPDF1.Location = New System.Drawing.Point(587, 12)
+        Me.AxAcroPDF1.Location = New System.Drawing.Point(568, 52)
         Me.AxAcroPDF1.Name = "AxAcroPDF1"
         Me.AxAcroPDF1.OcxState = CType(resources.GetObject("AxAcroPDF1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxAcroPDF1.Size = New System.Drawing.Size(626, 450)
+        Me.AxAcroPDF1.Size = New System.Drawing.Size(645, 410)
         Me.AxAcroPDF1.TabIndex = 29
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(333, 417)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 34)
+        Me.Button4.TabIndex = 30
+        Me.Button4.Text = "Borrar"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(414, 417)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(109, 34)
+        Me.Button5.TabIndex = 31
+        Me.Button5.Text = "Borrar informacion entrada" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'est_notas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1225, 474)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.AxAcroPDF1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.codigo_curso)
@@ -312,7 +334,6 @@ Partial Class est_notas
         Me.Controls.Add(Me.codigo_semestre)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "est_notas"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Estudiante - Notas"
         CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -347,4 +368,6 @@ Partial Class est_notas
     Friend WithEvents codigo_curso As ComboBox
     Friend WithEvents Button3 As Button
     Friend WithEvents AxAcroPDF1 As AxAcroPDFLib.AxAcroPDF
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class
