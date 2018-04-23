@@ -48,6 +48,9 @@ Partial Class est_notas
         Me.nota5 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.codigo_curso = New System.Windows.Forms.ComboBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.AxAcroPDF1 = New System.Windows.Forms.DataGridView()
+        CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'codigo_semestre
@@ -121,7 +124,7 @@ Partial Class est_notas
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(332, 97)
+        Me.Button1.Location = New System.Drawing.Point(252, 378)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 10
@@ -194,11 +197,11 @@ Partial Class est_notas
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(449, 97)
+        Me.Button2.Location = New System.Drawing.Point(389, 92)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(75, 40)
         Me.Button2.TabIndex = 20
-        Me.Button2.Text = "Actividades"
+        Me.Button2.Text = "Ir al form" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Actividades"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label10
@@ -257,11 +260,30 @@ Partial Class est_notas
         Me.codigo_curso.Size = New System.Drawing.Size(121, 21)
         Me.codigo_curso.TabIndex = 27
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(252, 417)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 28
+        Me.Button3.Text = "Someter"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'AxAcroPDF1
+        '
+        Me.AxAcroPDF1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.AxAcroPDF1.Location = New System.Drawing.Point(641, 23)
+        Me.AxAcroPDF1.Name = "AxAcroPDF1"
+        Me.AxAcroPDF1.Size = New System.Drawing.Size(552, 417)
+        Me.AxAcroPDF1.TabIndex = 29
+        '
         'est_notas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(542, 474)
+        Me.ClientSize = New System.Drawing.Size(1225, 474)
+        Me.Controls.Add(Me.AxAcroPDF1)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.codigo_curso)
         Me.Controls.Add(Me.nota5)
         Me.Controls.Add(Me.Label12)
@@ -291,6 +313,7 @@ Partial Class est_notas
         Me.Name = "est_notas"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Estudiante - Notas"
+        CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -321,4 +344,6 @@ Partial Class est_notas
     Friend WithEvents nota5 As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents codigo_curso As ComboBox
+    Friend WithEvents Button3 As Button
+    Friend WithEvents AxAcroPDF1 As DataGridView
 End Class

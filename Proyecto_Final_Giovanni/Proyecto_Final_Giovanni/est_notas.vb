@@ -18,6 +18,16 @@ Public Class est_notas
         nota5.Text = 100
     End Sub
 
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("C:\Users\ecos1435\Downloads\VBcourso\VBcourso\WindowsApplication1\WindowsApplication1\2019.pdf"))
+        AxAcroPDF1.LoadFile("C:\Users\ecos1435\Downloads\VBcourso\VBcourso\WindowsApplication1\WindowsApplication1\2019.pdf")
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim cod_semestre As String = codigo_semestre.Text
         Dim cod_curso As String = codigo_curso.Text
