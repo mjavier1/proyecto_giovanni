@@ -1,11 +1,16 @@
+2018-10 (Ago-Dec 2017)
+COMP3900
+Organización y Arquitectura de Computadoras
+3 creditos
 
 
+--NOTAS ESTUDIANTE--
+60
+90
+75
+80
+--Promedio--
 
 
-
-
-
-
-
-
-
+Promedio estudiante: 81
+Nota final: 100
