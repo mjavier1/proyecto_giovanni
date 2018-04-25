@@ -319,7 +319,6 @@ Partial Class informacion_general_est
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(471, 716)
-
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 39)
         Me.Button1.TabIndex = 33
@@ -386,7 +385,7 @@ Partial Class informacion_general_est
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "informacion_general_est"
-        Me.Text = "Form2"
+        Me.Text = "Información Estudiante"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
