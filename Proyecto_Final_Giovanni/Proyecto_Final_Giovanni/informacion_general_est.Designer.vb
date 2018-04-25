@@ -319,6 +319,7 @@ Partial Class informacion_general_est
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(471, 716)
+
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 39)
         Me.Button1.TabIndex = 33
