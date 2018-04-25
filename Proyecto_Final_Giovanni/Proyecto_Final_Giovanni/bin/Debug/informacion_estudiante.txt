@@ -1,7 +1,20 @@
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+=======
 2018-10 (Ago-Dec 2017)
 COMP3900
 Organización y Arquitectura de Computadoras
 3 creditos
+>>>>>>> master
 
 
 --NOTAS ESTUDIANTE--
