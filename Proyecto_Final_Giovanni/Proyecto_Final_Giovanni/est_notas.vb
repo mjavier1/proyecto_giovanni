@@ -174,7 +174,7 @@ Public Class est_notas
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Dim cmd As MySqlCommand
+        'Dim cmd As MySqlCommand
 
         Try
             'cmd = Conn.CreateCommand()
