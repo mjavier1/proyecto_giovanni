@@ -1,6 +1,17 @@
 ﻿Imports System.IO
+Imports MySql.Data.MySqlClient
+
 Public Class est_notas
+    Dim ServerMysql As String = "Server=localhost;User Id=mj; Password=datasql; Database=unil"
+    Dim Conn As New MySqlConnection(ServerMysql)
     Private Sub est_notas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim query As String = "select * from curso"
+        Dim adpt As New MySqlDataAdapter(query, Conn)
+        Dim ds As New DataSet()
+        adpt.Fill(ds, "Emp")
+        'DataGridView1.DataSource = ds.Tables(0)
+        Conn.Open()
+
         'Dim cod_semestre As String = "2018-30"
         Dim cod_curso As String = "Selecciona"
         Dim n_curso As String = "Computacion Visual"
@@ -16,6 +27,19 @@ Public Class est_notas
         nota3.Text = 75
         nota4.Text = 80
         nota5.Text = 100
+    End Sub
+    Private Sub Adding_Worksheet_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        Call AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
+    End Sub
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("~\2019.pdf"))
+        AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
+        ' Add any initialization after the InitializeComponent() call.
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -118,6 +142,45 @@ Public Class est_notas
 
                 End If
             End If
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        For Each tb As TextBox In Me.Controls.OfType(Of TextBox)()
+            tb.Text = String.Empty
+        Next
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim cmd As MySqlCommand
+
+        Try
+            cmd = Conn.CreateCommand()
+            cmd.CommandText = "update curso set numeroEst=@numeroEst, curso1=@curso1, curso2=@curso2, curso3=@curso3,curso4=@curso4,curso5=@curso5 where numeroEst=@numeroEst;"
+            cmd.Parameters.AddWithValue("@numeroEst", TextBox1.Text)
+            cmd.Parameters.AddWithValue("@curso1", nota1.Text)
+            cmd.Parameters.AddWithValue("@curso2", nota2.Text)
+            cmd.Parameters.AddWithValue("@curso3", nota3.Text)
+            cmd.Parameters.AddWithValue("@curso4", nota4.Text)
+            cmd.Parameters.AddWithValue("@curso5", nota5.Text)
+            cmd.ExecuteNonQuery()
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        'Dim cmd As MySqlCommand
+
+        Try
+            'cmd = Conn.CreateCommand()
+            'cmd.CommandText = "delete from curso where numeroEst=@numeroEst;"
+            'cmd.Parameters.AddWithValue("@numeroEst", TextBox1.Text)
+            'cmd.ExecuteNonQuery()
 
         Catch ex As Exception
 
