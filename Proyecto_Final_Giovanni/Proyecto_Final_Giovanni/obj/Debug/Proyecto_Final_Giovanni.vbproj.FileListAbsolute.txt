@@ -69,3 +69,4 @@ C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_F
 C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Interop.AcroPDFLib.dll
 C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\ecos1435\Documents\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.vbproj.ResolveComReference.cache
+C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.olvidar.resources
