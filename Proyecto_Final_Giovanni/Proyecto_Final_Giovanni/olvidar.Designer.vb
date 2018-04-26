@@ -156,7 +156,7 @@ Partial Class olvidar
         Me.ClientSize = New System.Drawing.Size(456, 390)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "olvidar"
-        Me.Text = "olvidar"
+        Me.Text = "Recuperar tu contraseña"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
