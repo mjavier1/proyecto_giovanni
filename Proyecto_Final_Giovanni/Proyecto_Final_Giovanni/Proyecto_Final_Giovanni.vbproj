@@ -140,6 +140,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="nuevo_usuario.Designer.vb">
+      <DependentUpon>nuevo_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nuevo_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="olvidar.Designer.vb">
       <DependentUpon>olvidar.vb</DependentUpon>
     </Compile>
@@ -170,6 +176,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevo_usuario.resx">
+      <DependentUpon>nuevo_usuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="olvidar.resx">
       <DependentUpon>olvidar.vb</DependentUpon>

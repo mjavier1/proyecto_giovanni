@@ -22,140 +22,157 @@ Partial Class olvidar
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Password = New System.Windows.Forms.TextBox()
+        Me.password = New System.Windows.Forms.TextBox()
         Me.Answers = New System.Windows.Forms.TextBox()
-        Me.textQuestion = New System.Windows.Forms.TextBox()
-        Me.PassRect = New System.Windows.Forms.TextBox()
-        Me.UserdID = New System.Windows.Forms.TextBox()
+        Me.Question = New System.Windows.Forms.TextBox()
+        Me.UserID = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.QuestionID = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label4
+        'GroupBox1
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(187, 192)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(44, 13)
-        Me.Label4.TabIndex = 27
-        Me.Label4.Text = "Quetion"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(189, 228)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 13)
-        Me.Label5.TabIndex = 26
-        Me.Label5.Text = "Answer"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(155, 142)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(107, 26)
-        Me.Label3.TabIndex = 25
-        Me.Label3.Text = "Ingresa nuevamente " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "tu contraseña"
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.password)
+        Me.GroupBox1.Controls.Add(Me.Answers)
+        Me.GroupBox1.Controls.Add(Me.Question)
+        Me.GroupBox1.Controls.Add(Me.UserID)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.QuestionID)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.Button3)
+        Me.GroupBox1.Controls.Add(Me.Button2)
+        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Location = New System.Drawing.Point(13, 54)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(431, 252)
+        Me.GroupBox1.TabIndex = 2
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Buscar mi contraseña"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(187, 120)
+        Me.Label2.Location = New System.Drawing.Point(58, 177)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
-        Me.Label2.TabIndex = 24
-        Me.Label2.Text = "Password"
+        Me.Label2.Size = New System.Drawing.Size(61, 13)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "Contraseña"
+        '
+        'password
+        '
+        Me.password.Enabled = False
+        Me.password.Location = New System.Drawing.Point(163, 170)
+        Me.password.Name = "password"
+        Me.password.Size = New System.Drawing.Size(100, 20)
+        Me.password.TabIndex = 9
+        '
+        'Answers
+        '
+        Me.Answers.Location = New System.Drawing.Point(163, 132)
+        Me.Answers.Name = "Answers"
+        Me.Answers.Size = New System.Drawing.Size(100, 20)
+        Me.Answers.TabIndex = 8
+        '
+        'Question
+        '
+        Me.Question.Location = New System.Drawing.Point(163, 87)
+        Me.Question.Name = "Question"
+        Me.Question.Size = New System.Drawing.Size(100, 20)
+        Me.Question.TabIndex = 7
+        '
+        'UserID
+        '
+        Me.UserID.Location = New System.Drawing.Point(163, 36)
+        Me.UserID.Name = "UserID"
+        Me.UserID.Size = New System.Drawing.Size(100, 20)
+        Me.UserID.TabIndex = 6
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(58, 135)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(58, 13)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Respuesta"
+        '
+        'QuestionID
+        '
+        Me.QuestionID.AutoSize = True
+        Me.QuestionID.Location = New System.Drawing.Point(58, 90)
+        Me.QuestionID.Name = "QuestionID"
+        Me.QuestionID.Size = New System.Drawing.Size(50, 13)
+        Me.QuestionID.TabIndex = 4
+        Me.QuestionID.Text = "Pregunta"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(191, 94)
+        Me.Label1.Location = New System.Drawing.Point(58, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 13)
-        Me.Label1.TabIndex = 23
-        Me.Label1.Text = "UserID"
+        Me.Label1.Size = New System.Drawing.Size(55, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "ID usuario"
         '
-        'Password
+        'Button3
         '
-        Me.Password.Location = New System.Drawing.Point(268, 113)
-        Me.Password.Name = "Password"
-        Me.Password.Size = New System.Drawing.Size(100, 20)
-        Me.Password.TabIndex = 22
+        Me.Button3.Location = New System.Drawing.Point(265, 207)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "Cerrar"
+        Me.Button3.UseVisualStyleBackColor = True
         '
-        'Answers
+        'Button2
         '
-        Me.Answers.Location = New System.Drawing.Point(268, 221)
-        Me.Answers.Name = "Answers"
-        Me.Answers.Size = New System.Drawing.Size(100, 20)
-        Me.Answers.TabIndex = 21
-        '
-        'textQuestion
-        '
-        Me.textQuestion.Location = New System.Drawing.Point(268, 185)
-        Me.textQuestion.Name = "textQuestion"
-        Me.textQuestion.Size = New System.Drawing.Size(100, 20)
-        Me.textQuestion.TabIndex = 20
-        '
-        'PassRect
-        '
-        Me.PassRect.Location = New System.Drawing.Point(268, 150)
-        Me.PassRect.Name = "PassRect"
-        Me.PassRect.Size = New System.Drawing.Size(100, 20)
-        Me.PassRect.TabIndex = 19
-        '
-        'UserdID
-        '
-        Me.UserdID.Location = New System.Drawing.Point(268, 87)
-        Me.UserdID.Name = "UserdID"
-        Me.UserdID.Size = New System.Drawing.Size(100, 20)
-        Me.UserdID.TabIndex = 18
+        Me.Button2.Location = New System.Drawing.Point(163, 207)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Menu "
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(268, 271)
+        Me.Button1.Location = New System.Drawing.Point(61, 207)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Button1"
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Buscar "
         Me.Button1.UseVisualStyleBackColor = True
         '
         'olvidar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(526, 435)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Password)
-        Me.Controls.Add(Me.Answers)
-        Me.Controls.Add(Me.textQuestion)
-        Me.Controls.Add(Me.PassRect)
-        Me.Controls.Add(Me.UserdID)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(456, 390)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Name = "olvidar"
-        Me.Text = "Olvidé mi contraseña"
+        Me.Text = "olvidar"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label3 As Label
+    Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Password As TextBox
+    Friend WithEvents password As TextBox
     Friend WithEvents Answers As TextBox
-    Friend WithEvents textQuestion As TextBox
-    Friend WithEvents PassRect As TextBox
-    Friend WithEvents UserdID As TextBox
+    Friend WithEvents Question As TextBox
+    Friend WithEvents UserID As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents QuestionID As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
 End Class
