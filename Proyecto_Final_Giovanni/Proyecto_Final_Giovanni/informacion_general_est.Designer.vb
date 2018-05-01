@@ -24,7 +24,7 @@ Partial Class informacion_general_est
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(informacion_general_est))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.nombre = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -37,10 +37,10 @@ Partial Class informacion_general_est
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.id = New System.Windows.Forms.TextBox()
+        Me.concentracion = New System.Windows.Forms.TextBox()
+        Me.departamento = New System.Windows.Forms.TextBox()
+        Me.ano_ingresado = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
@@ -54,7 +54,7 @@ Partial Class informacion_general_est
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.cr_convalidado = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -70,12 +70,12 @@ Partial Class informacion_general_est
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nombre/Apellidos"
         '
-        'TextBox1
+        'nombre
         '
-        Me.TextBox1.Location = New System.Drawing.Point(183, 53)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.nombre.Location = New System.Drawing.Point(183, 53)
+        Me.nombre.Name = "nombre"
+        Me.nombre.Size = New System.Drawing.Size(100, 20)
+        Me.nombre.TabIndex = 1
         '
         'Label2
         '
@@ -185,35 +185,35 @@ Partial Class informacion_general_est
         Me.Label13.TabIndex = 13
         Me.Label13.Text = "Creditos Convalidos"
         '
-        'TextBox2
+        'id
         '
-        Me.TextBox2.Location = New System.Drawing.Point(183, 96)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 14
+        Me.id.Location = New System.Drawing.Point(183, 96)
+        Me.id.Name = "id"
+        Me.id.Size = New System.Drawing.Size(100, 20)
+        Me.id.TabIndex = 14
         '
-        'TextBox3
+        'concentracion
         '
-        Me.TextBox3.Location = New System.Drawing.Point(183, 135)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 15
+        Me.concentracion.Location = New System.Drawing.Point(183, 135)
+        Me.concentracion.Name = "concentracion"
+        Me.concentracion.Size = New System.Drawing.Size(100, 20)
+        Me.concentracion.TabIndex = 15
         '
-        'TextBox4
+        'departamento
         '
-        Me.TextBox4.Location = New System.Drawing.Point(183, 174)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 16
+        Me.departamento.Location = New System.Drawing.Point(183, 174)
+        Me.departamento.Name = "departamento"
+        Me.departamento.Size = New System.Drawing.Size(100, 20)
+        Me.departamento.TabIndex = 16
         '
-        'ComboBox1
+        'ano_ingresado
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Ago - Dic - 2013", "Ene - May - 2014", "Ago - Dic - 2014", "Ene - May - 2015", "Ago - Dic - 2015", "Ene - May - 2016", "Ago - Dic - 2016", "Ene - May - 2017", "Ago - Dic - 2017", "Ene - May - 2018"})
-        Me.ComboBox1.Location = New System.Drawing.Point(26, 234)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 17
+        Me.ano_ingresado.FormattingEnabled = True
+        Me.ano_ingresado.Items.AddRange(New Object() {"Ago - Dic - 2013", "Ene - May - 2014", "Ago - Dic - 2014", "Ene - May - 2015", "Ago - Dic - 2015", "Ene - May - 2016", "Ago - Dic - 2016", "Ene - May - 2017", "Ago - Dic - 2017", "Ene - May - 2018"})
+        Me.ano_ingresado.Location = New System.Drawing.Point(26, 234)
+        Me.ano_ingresado.Name = "ano_ingresado"
+        Me.ano_ingresado.Size = New System.Drawing.Size(121, 21)
+        Me.ano_ingresado.TabIndex = 17
         '
         'ComboBox2
         '
@@ -308,14 +308,14 @@ Partial Class informacion_general_est
         Me.TextBox16.Size = New System.Drawing.Size(100, 20)
         Me.TextBox16.TabIndex = 31
         '
-        'ComboBox3
+        'cr_convalidado
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"3", "6", "9", "12", "15", "18", "21"})
-        Me.ComboBox3.Location = New System.Drawing.Point(183, 234)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox3.TabIndex = 32
+        Me.cr_convalidado.FormattingEnabled = True
+        Me.cr_convalidado.Items.AddRange(New Object() {"3", "6", "9", "12", "15", "18", "21"})
+        Me.cr_convalidado.Location = New System.Drawing.Point(183, 234)
+        Me.cr_convalidado.Name = "cr_convalidado"
+        Me.cr_convalidado.Size = New System.Drawing.Size(121, 21)
+        Me.cr_convalidado.TabIndex = 32
         '
         'Button1
         '
@@ -360,7 +360,7 @@ Partial Class informacion_general_est
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox3)
+        Me.Controls.Add(Me.cr_convalidado)
         Me.Controls.Add(Me.TextBox16)
         Me.Controls.Add(Me.TextBox15)
         Me.Controls.Add(Me.TextBox14)
@@ -374,10 +374,10 @@ Partial Class informacion_general_est
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.ano_ingresado)
+        Me.Controls.Add(Me.departamento)
+        Me.Controls.Add(Me.concentracion)
+        Me.Controls.Add(Me.id)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
@@ -390,7 +390,7 @@ Partial Class informacion_general_est
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.nombre)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "informacion_general_est"
@@ -401,7 +401,7 @@ Partial Class informacion_general_est
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents nombre As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
@@ -414,10 +414,10 @@ Partial Class informacion_general_est
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents id As TextBox
+    Friend WithEvents concentracion As TextBox
+    Friend WithEvents departamento As TextBox
+    Friend WithEvents ano_ingresado As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox6 As TextBox
@@ -431,7 +431,7 @@ Partial Class informacion_general_est
     Friend WithEvents TextBox14 As TextBox
     Friend WithEvents TextBox15 As TextBox
     Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents cr_convalidado As ComboBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button

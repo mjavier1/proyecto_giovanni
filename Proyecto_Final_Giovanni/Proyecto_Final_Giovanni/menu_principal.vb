@@ -36,22 +36,6 @@ Public Class menu_principal
             informacion_general_est.Show()
         End If
 
-        'If (usuario = "admin" And contrasena = "password_admin") Then
-        'MsgBox("Informacion valida" & Environment.NewLine &
-        '"Bienvenido '" & usuario & "'")
-        'Visible = False 'Hacer que este Form no se vea
-
-
-        'TAREA PARA HACER 
-        'Como Eddie todavia no ha hecho su parte,
-        'lo pongo en comentario porque en su Form
-        'debe haber un boton al proximo Form: NOTAS DEL ESTUDIANTE
-        'Cuando Eddie haga eso, se quita este comentario
-        'informacion_general_est.Show() 'Form #1 del trabajo de Giovanni
-
-        'est_notas.Show()
-
-        'End If
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
