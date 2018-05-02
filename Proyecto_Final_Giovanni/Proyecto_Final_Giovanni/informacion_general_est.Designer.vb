@@ -41,23 +41,23 @@ Partial Class informacion_general_est
         Me.concentracion = New System.Windows.Forms.TextBox()
         Me.departamento = New System.Windows.Forms.TextBox()
         Me.ano_ingresado = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.institucion_origen_traslado = New System.Windows.Forms.ComboBox()
+        Me.telr1 = New System.Windows.Forms.TextBox()
+        Me.telr2 = New System.Windows.Forms.TextBox()
+        Me.telr3 = New System.Windows.Forms.TextBox()
+        Me.telc2 = New System.Windows.Forms.TextBox()
+        Me.telc1 = New System.Windows.Forms.TextBox()
+        Me.telc3 = New System.Windows.Forms.TextBox()
+        Me.telt1 = New System.Windows.Forms.TextBox()
+        Me.telt2 = New System.Windows.Forms.TextBox()
+        Me.telt3 = New System.Windows.Forms.TextBox()
+        Me.nombre_empresa_est = New System.Windows.Forms.TextBox()
+        Me.dir_empresaT_est = New System.Windows.Forms.TextBox()
+        Me.dir_res_est = New System.Windows.Forms.TextBox()
         Me.cr_convalidado = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.continuar = New System.Windows.Forms.Button()
+        Me.cerrar = New System.Windows.Forms.Button()
+        Me.someter = New System.Windows.Forms.Button()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
         Me.SuspendLayout()
         '
@@ -215,98 +215,98 @@ Partial Class informacion_general_est
         Me.ano_ingresado.Size = New System.Drawing.Size(121, 21)
         Me.ano_ingresado.TabIndex = 17
         '
-        'ComboBox2
+        'institucion_origen_traslado
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Recinto Ponce", "Recinto Bayamon", "Recinto Fajardo", "Recinto Guayama", "Recinto Baranquitas ", "Recinto Aguadillas", "Metro", "Escuela fde Optometria", "Orlando", "Panamas", "Facultad de Derecho", "Aviacion"})
-        Me.ComboBox2.Location = New System.Drawing.Point(26, 295)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 18
+        Me.institucion_origen_traslado.FormattingEnabled = True
+        Me.institucion_origen_traslado.Items.AddRange(New Object() {"Recinto Ponce", "Recinto Bayamon", "Recinto Fajardo", "Recinto Guayama", "Recinto Baranquitas ", "Recinto Aguadillas", "Metro", "Escuela fde Optometria", "Orlando", "Panamas", "Facultad de Derecho", "Aviacion"})
+        Me.institucion_origen_traslado.Location = New System.Drawing.Point(26, 295)
+        Me.institucion_origen_traslado.Name = "institucion_origen_traslado"
+        Me.institucion_origen_traslado.Size = New System.Drawing.Size(121, 21)
+        Me.institucion_origen_traslado.TabIndex = 18
         '
-        'TextBox5
+        'telr1
         '
-        Me.TextBox5.Location = New System.Drawing.Point(26, 348)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox5.TabIndex = 19
+        Me.telr1.Location = New System.Drawing.Point(26, 348)
+        Me.telr1.Name = "telr1"
+        Me.telr1.Size = New System.Drawing.Size(44, 20)
+        Me.telr1.TabIndex = 19
         '
-        'TextBox6
+        'telr2
         '
-        Me.TextBox6.Location = New System.Drawing.Point(86, 348)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox6.TabIndex = 20
+        Me.telr2.Location = New System.Drawing.Point(86, 348)
+        Me.telr2.Name = "telr2"
+        Me.telr2.Size = New System.Drawing.Size(44, 20)
+        Me.telr2.TabIndex = 20
         '
-        'TextBox7
+        'telr3
         '
-        Me.TextBox7.Location = New System.Drawing.Point(149, 348)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox7.TabIndex = 21
+        Me.telr3.Location = New System.Drawing.Point(149, 348)
+        Me.telr3.Name = "telr3"
+        Me.telr3.Size = New System.Drawing.Size(44, 20)
+        Me.telr3.TabIndex = 21
         '
-        'TextBox8
+        'telc2
         '
-        Me.TextBox8.Location = New System.Drawing.Point(86, 406)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox8.TabIndex = 23
+        Me.telc2.Location = New System.Drawing.Point(86, 406)
+        Me.telc2.Name = "telc2"
+        Me.telc2.Size = New System.Drawing.Size(44, 20)
+        Me.telc2.TabIndex = 23
         '
-        'TextBox9
+        'telc1
         '
-        Me.TextBox9.Location = New System.Drawing.Point(26, 406)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox9.TabIndex = 24
+        Me.telc1.Location = New System.Drawing.Point(26, 406)
+        Me.telc1.Name = "telc1"
+        Me.telc1.Size = New System.Drawing.Size(44, 20)
+        Me.telc1.TabIndex = 24
         '
-        'TextBox10
+        'telc3
         '
-        Me.TextBox10.Location = New System.Drawing.Point(149, 406)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox10.TabIndex = 25
+        Me.telc3.Location = New System.Drawing.Point(149, 406)
+        Me.telc3.Name = "telc3"
+        Me.telc3.Size = New System.Drawing.Size(44, 20)
+        Me.telc3.TabIndex = 25
         '
-        'TextBox11
+        'telt1
         '
-        Me.TextBox11.Location = New System.Drawing.Point(26, 464)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox11.TabIndex = 26
+        Me.telt1.Location = New System.Drawing.Point(26, 464)
+        Me.telt1.Name = "telt1"
+        Me.telt1.Size = New System.Drawing.Size(44, 20)
+        Me.telt1.TabIndex = 26
         '
-        'TextBox12
+        'telt2
         '
-        Me.TextBox12.Location = New System.Drawing.Point(86, 464)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox12.TabIndex = 27
+        Me.telt2.Location = New System.Drawing.Point(86, 464)
+        Me.telt2.Name = "telt2"
+        Me.telt2.Size = New System.Drawing.Size(44, 20)
+        Me.telt2.TabIndex = 27
         '
-        'TextBox13
+        'telt3
         '
-        Me.TextBox13.Location = New System.Drawing.Point(149, 464)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox13.TabIndex = 28
+        Me.telt3.Location = New System.Drawing.Point(149, 464)
+        Me.telt3.Name = "telt3"
+        Me.telt3.Size = New System.Drawing.Size(44, 20)
+        Me.telt3.TabIndex = 28
         '
-        'TextBox14
+        'nombre_empresa_est
         '
-        Me.TextBox14.Location = New System.Drawing.Point(149, 508)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox14.TabIndex = 29
+        Me.nombre_empresa_est.Location = New System.Drawing.Point(149, 508)
+        Me.nombre_empresa_est.Name = "nombre_empresa_est"
+        Me.nombre_empresa_est.Size = New System.Drawing.Size(100, 20)
+        Me.nombre_empresa_est.TabIndex = 29
         '
-        'TextBox15
+        'dir_empresaT_est
         '
-        Me.TextBox15.Location = New System.Drawing.Point(149, 545)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox15.TabIndex = 30
+        Me.dir_empresaT_est.Location = New System.Drawing.Point(149, 545)
+        Me.dir_empresaT_est.Name = "dir_empresaT_est"
+        Me.dir_empresaT_est.Size = New System.Drawing.Size(100, 20)
+        Me.dir_empresaT_est.TabIndex = 30
         '
-        'TextBox16
+        'dir_res_est
         '
-        Me.TextBox16.Location = New System.Drawing.Point(149, 585)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox16.TabIndex = 31
+        Me.dir_res_est.Location = New System.Drawing.Point(149, 585)
+        Me.dir_res_est.Name = "dir_res_est"
+        Me.dir_res_est.Size = New System.Drawing.Size(100, 20)
+        Me.dir_res_est.TabIndex = 31
         '
         'cr_convalidado
         '
@@ -317,32 +317,32 @@ Partial Class informacion_general_est
         Me.cr_convalidado.Size = New System.Drawing.Size(121, 21)
         Me.cr_convalidado.TabIndex = 32
         '
-        'Button1
+        'continuar
         '
-        Me.Button1.Location = New System.Drawing.Point(466, 642)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 39)
-        Me.Button1.TabIndex = 33
-        Me.Button1.Text = "Proximo Form >"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.continuar.Location = New System.Drawing.Point(466, 642)
+        Me.continuar.Name = "continuar"
+        Me.continuar.Size = New System.Drawing.Size(75, 39)
+        Me.continuar.TabIndex = 33
+        Me.continuar.Text = "Proximo Form >"
+        Me.continuar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'cerrar
         '
-        Me.Button2.Location = New System.Drawing.Point(373, 642)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 39)
-        Me.Button2.TabIndex = 34
-        Me.Button2.Text = "Salir "
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.cerrar.Location = New System.Drawing.Point(373, 642)
+        Me.cerrar.Name = "cerrar"
+        Me.cerrar.Size = New System.Drawing.Size(75, 39)
+        Me.cerrar.TabIndex = 34
+        Me.cerrar.Text = "Salir "
+        Me.cerrar.UseVisualStyleBackColor = True
         '
-        'Button3
+        'someter
         '
-        Me.Button3.Location = New System.Drawing.Point(149, 642)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 39)
-        Me.Button3.TabIndex = 35
-        Me.Button3.Text = "Someter informacion"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.someter.Location = New System.Drawing.Point(149, 642)
+        Me.someter.Name = "someter"
+        Me.someter.Size = New System.Drawing.Size(75, 39)
+        Me.someter.TabIndex = 35
+        Me.someter.Text = "Someter informacion"
+        Me.someter.UseVisualStyleBackColor = True
         '
         'MetroLabel1
         '
@@ -357,23 +357,23 @@ Partial Class informacion_general_est
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(564, 778)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.someter)
+        Me.Controls.Add(Me.cerrar)
+        Me.Controls.Add(Me.continuar)
         Me.Controls.Add(Me.cr_convalidado)
-        Me.Controls.Add(Me.TextBox16)
-        Me.Controls.Add(Me.TextBox15)
-        Me.Controls.Add(Me.TextBox14)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox12)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.dir_res_est)
+        Me.Controls.Add(Me.dir_empresaT_est)
+        Me.Controls.Add(Me.nombre_empresa_est)
+        Me.Controls.Add(Me.telt3)
+        Me.Controls.Add(Me.telt2)
+        Me.Controls.Add(Me.telt1)
+        Me.Controls.Add(Me.telc3)
+        Me.Controls.Add(Me.telc1)
+        Me.Controls.Add(Me.telc2)
+        Me.Controls.Add(Me.telr3)
+        Me.Controls.Add(Me.telr2)
+        Me.Controls.Add(Me.telr1)
+        Me.Controls.Add(Me.institucion_origen_traslado)
         Me.Controls.Add(Me.ano_ingresado)
         Me.Controls.Add(Me.departamento)
         Me.Controls.Add(Me.concentracion)
@@ -418,22 +418,22 @@ Partial Class informacion_general_est
     Friend WithEvents concentracion As TextBox
     Friend WithEvents departamento As TextBox
     Friend WithEvents ano_ingresado As ComboBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents institucion_origen_traslado As ComboBox
+    Friend WithEvents telr1 As TextBox
+    Friend WithEvents telr2 As TextBox
+    Friend WithEvents telr3 As TextBox
+    Friend WithEvents telc2 As TextBox
+    Friend WithEvents telc1 As TextBox
+    Friend WithEvents telc3 As TextBox
+    Friend WithEvents telt1 As TextBox
+    Friend WithEvents telt2 As TextBox
+    Friend WithEvents telt3 As TextBox
+    Friend WithEvents nombre_empresa_est As TextBox
+    Friend WithEvents dir_empresaT_est As TextBox
+    Friend WithEvents dir_res_est As TextBox
     Friend WithEvents cr_convalidado As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents continuar As Button
+    Friend WithEvents cerrar As Button
+    Friend WithEvents someter As Button
     Private WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
 End Class

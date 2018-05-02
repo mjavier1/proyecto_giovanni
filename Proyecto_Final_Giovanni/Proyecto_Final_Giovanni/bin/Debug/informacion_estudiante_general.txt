@@ -1,0 +1,24 @@
+Nombre completo del estudiante: dagf
+
+ID del estudiante: 5asfd
+
+Concentración: afwe
+
+Departamento: efae
+
+Teléfono residencial: 787
+
+Teléfono celular: 787
+
+Teléfono trabajo: 787
+
+Direccion del trabajo del estudiante: 787
+
+Direccion residencial del estudiante: 787
+
+Año de inicio: Ago - Dic - 2013
+
+Creditos convalidados por la Inter Ponce: 
+
+Institución de provinencia del estudiante: Recinto Bayamon
+
