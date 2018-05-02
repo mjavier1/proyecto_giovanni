@@ -35,4 +35,5 @@ Public Class est_Actividades_Universitarias
         Visible = False
         est_Informacion_Financiera.Show()
     End Sub
+
 End Class
