@@ -103,3 +103,6 @@ C:\Users\ecosm\Documents\dev\projects\proyecto_giovanni\Proyecto_Final_Giovanni\
 C:\Users\ecosm\Documents\dev\projects\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.exe
 C:\Users\ecosm\Documents\dev\projects\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.xml
 C:\Users\ecosm\Documents\dev\projects\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.pdb
+C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\bin\Debug\MetroFramework.Design.dll
+C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\obj\Debug\Proyecto_Final_Giovanni.menu_cambiar_contrasena.resources
