@@ -43,14 +43,8 @@ Partial Class informacion_general_est
         Me.ano_ingresado = New System.Windows.Forms.ComboBox()
         Me.institucion_origen_traslado = New System.Windows.Forms.ComboBox()
         Me.telr1 = New System.Windows.Forms.TextBox()
-        Me.telr2 = New System.Windows.Forms.TextBox()
-        Me.telr3 = New System.Windows.Forms.TextBox()
-        Me.telc2 = New System.Windows.Forms.TextBox()
         Me.telc1 = New System.Windows.Forms.TextBox()
-        Me.telc3 = New System.Windows.Forms.TextBox()
         Me.telt1 = New System.Windows.Forms.TextBox()
-        Me.telt2 = New System.Windows.Forms.TextBox()
-        Me.telt3 = New System.Windows.Forms.TextBox()
         Me.nombre_empresa_est = New System.Windows.Forms.TextBox()
         Me.dir_empresaT_est = New System.Windows.Forms.TextBox()
         Me.dir_res_est = New System.Windows.Forms.TextBox()
@@ -228,64 +222,22 @@ Partial Class informacion_general_est
         '
         Me.telr1.Location = New System.Drawing.Point(26, 348)
         Me.telr1.Name = "telr1"
-        Me.telr1.Size = New System.Drawing.Size(44, 20)
+        Me.telr1.Size = New System.Drawing.Size(121, 20)
         Me.telr1.TabIndex = 19
-        '
-        'telr2
-        '
-        Me.telr2.Location = New System.Drawing.Point(86, 348)
-        Me.telr2.Name = "telr2"
-        Me.telr2.Size = New System.Drawing.Size(44, 20)
-        Me.telr2.TabIndex = 20
-        '
-        'telr3
-        '
-        Me.telr3.Location = New System.Drawing.Point(149, 348)
-        Me.telr3.Name = "telr3"
-        Me.telr3.Size = New System.Drawing.Size(44, 20)
-        Me.telr3.TabIndex = 21
-        '
-        'telc2
-        '
-        Me.telc2.Location = New System.Drawing.Point(86, 406)
-        Me.telc2.Name = "telc2"
-        Me.telc2.Size = New System.Drawing.Size(44, 20)
-        Me.telc2.TabIndex = 23
         '
         'telc1
         '
         Me.telc1.Location = New System.Drawing.Point(26, 406)
         Me.telc1.Name = "telc1"
-        Me.telc1.Size = New System.Drawing.Size(44, 20)
+        Me.telc1.Size = New System.Drawing.Size(121, 20)
         Me.telc1.TabIndex = 24
-        '
-        'telc3
-        '
-        Me.telc3.Location = New System.Drawing.Point(149, 406)
-        Me.telc3.Name = "telc3"
-        Me.telc3.Size = New System.Drawing.Size(44, 20)
-        Me.telc3.TabIndex = 25
         '
         'telt1
         '
         Me.telt1.Location = New System.Drawing.Point(26, 464)
         Me.telt1.Name = "telt1"
-        Me.telt1.Size = New System.Drawing.Size(44, 20)
+        Me.telt1.Size = New System.Drawing.Size(121, 20)
         Me.telt1.TabIndex = 26
-        '
-        'telt2
-        '
-        Me.telt2.Location = New System.Drawing.Point(86, 464)
-        Me.telt2.Name = "telt2"
-        Me.telt2.Size = New System.Drawing.Size(44, 20)
-        Me.telt2.TabIndex = 27
-        '
-        'telt3
-        '
-        Me.telt3.Location = New System.Drawing.Point(149, 464)
-        Me.telt3.Name = "telt3"
-        Me.telt3.Size = New System.Drawing.Size(44, 20)
-        Me.telt3.TabIndex = 28
         '
         'nombre_empresa_est
         '
@@ -364,14 +316,8 @@ Partial Class informacion_general_est
         Me.Controls.Add(Me.dir_res_est)
         Me.Controls.Add(Me.dir_empresaT_est)
         Me.Controls.Add(Me.nombre_empresa_est)
-        Me.Controls.Add(Me.telt3)
-        Me.Controls.Add(Me.telt2)
         Me.Controls.Add(Me.telt1)
-        Me.Controls.Add(Me.telc3)
         Me.Controls.Add(Me.telc1)
-        Me.Controls.Add(Me.telc2)
-        Me.Controls.Add(Me.telr3)
-        Me.Controls.Add(Me.telr2)
         Me.Controls.Add(Me.telr1)
         Me.Controls.Add(Me.institucion_origen_traslado)
         Me.Controls.Add(Me.ano_ingresado)
@@ -420,14 +366,8 @@ Partial Class informacion_general_est
     Friend WithEvents ano_ingresado As ComboBox
     Friend WithEvents institucion_origen_traslado As ComboBox
     Friend WithEvents telr1 As TextBox
-    Friend WithEvents telr2 As TextBox
-    Friend WithEvents telr3 As TextBox
-    Friend WithEvents telc2 As TextBox
     Friend WithEvents telc1 As TextBox
-    Friend WithEvents telc3 As TextBox
     Friend WithEvents telt1 As TextBox
-    Friend WithEvents telt2 As TextBox
-    Friend WithEvents telt3 As TextBox
     Friend WithEvents nombre_empresa_est As TextBox
     Friend WithEvents dir_empresaT_est As TextBox
     Friend WithEvents dir_res_est As TextBox
