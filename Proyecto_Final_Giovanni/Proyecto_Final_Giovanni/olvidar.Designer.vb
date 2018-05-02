@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class olvidar
-    Inherits System.Windows.Forms.Form
+    Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -156,7 +156,7 @@ Partial Class olvidar
         Me.ClientSize = New System.Drawing.Size(456, 390)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "olvidar"
-        Me.Text = "olvidar"
+        Me.Text = "Recuperar tu contraseña"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)

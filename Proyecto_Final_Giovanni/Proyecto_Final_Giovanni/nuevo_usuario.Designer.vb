@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class nuevo_usuario
-    Inherits System.Windows.Forms.Form
+    Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -38,25 +38,25 @@ Partial Class nuevo_usuario
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(187, 192)
+        Me.Label4.Location = New System.Drawing.Point(181, 192)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(44, 13)
+        Me.Label4.Size = New System.Drawing.Size(50, 13)
         Me.Label4.TabIndex = 27
-        Me.Label4.Text = "Quetion"
+        Me.Label4.Text = "Pregunta"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(189, 228)
+        Me.Label5.Location = New System.Drawing.Point(173, 228)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 13)
+        Me.Label5.Size = New System.Drawing.Size(58, 13)
         Me.Label5.TabIndex = 26
-        Me.Label5.Text = "Answer"
+        Me.Label5.Text = "Respuesta"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(155, 142)
+        Me.Label3.Location = New System.Drawing.Point(124, 144)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(107, 26)
         Me.Label3.TabIndex = 25
@@ -65,11 +65,11 @@ Partial Class nuevo_usuario
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(187, 120)
+        Me.Label2.Location = New System.Drawing.Point(170, 120)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(61, 13)
         Me.Label2.TabIndex = 24
-        Me.Label2.Text = "Password"
+        Me.Label2.Text = "Contraseña"
         '
         'Label1
         '
@@ -119,9 +119,9 @@ Partial Class nuevo_usuario
         '
         Me.Button1.Location = New System.Drawing.Point(268, 271)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 23)
         Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Crear"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'nuevo_usuario

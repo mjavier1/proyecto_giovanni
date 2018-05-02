@@ -13,7 +13,7 @@ Public Class est_notas
         Conn.Open()
 
         'Dim cod_semestre As String = "2018-30"
-        Dim cod_curso As String = "Selecciona"
+        Dim cod_curso As String = "COMP3300"
         Dim n_curso As String = "Computacion Visual"
         Dim cr_curso As String = "3"
 
@@ -152,6 +152,7 @@ Public Class est_notas
         For Each tb As TextBox In Me.Controls.OfType(Of TextBox)()
             tb.Text = String.Empty
         Next
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -185,5 +186,14 @@ Public Class est_notas
         Catch ex As Exception
 
         End Try
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        nota1.Text = 60
+        nota2.Text = 90
+        nota3.Text = 75
+        nota4.Text = 80
+        nota5.Text = 100
+        nombre_curso.Text = "Computación Visual"
     End Sub
 End Class

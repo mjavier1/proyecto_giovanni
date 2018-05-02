@@ -89,7 +89,7 @@ Partial Class menu_principal
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(96, 23)
         Me.Button3.TabIndex = 7
-        Me.Button3.Text = "New"
+        Me.Button3.Text = "Nuevo"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -98,7 +98,7 @@ Partial Class menu_principal
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(96, 23)
         Me.Button4.TabIndex = 8
-        Me.Button4.Text = "Change pwd"
+        Me.Button4.Text = "Cambiar "
         Me.Button4.UseVisualStyleBackColor = True
         '
         'menu_principal

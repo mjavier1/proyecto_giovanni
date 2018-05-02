@@ -15,61 +15,42 @@ Public Class informacion_general_est
         'Los titulos que serán escritos
         'en el archivo están todos puestos en este 
         'arreglo, para usarlos en un For Loop
-        Dim txt_labels1 As String() = New String() {
+        Dim label_Inf_Est As String() = New String() {
             "Nombre completo del estudiante: ",
             "ID del estudiante: ",
             "Concentración: ",
             "Departamento: ",
-            "Teléfono residencial: ",
-            "Teléfono celular: ",
-            "Teléfono trabajo: ",
+            "Nombre de la empresa:",
             "Direccion del trabajo del estudiante: ",
-            "Direccion residencial del estudiante: "
-        }
-
-        Dim txt_labels2 As String() = New String() {
+            "Direccion residencial del estudiante: ",
             "Año de inicio: ",
             "Creditos convalidados por la Inter Ponce: ",
-            "Institución de provinencia del estudiante: "
+            "Institución de provinencia del estudiante: ",
+            "Teléfono residencial: ",
+            "Teléfono celular: ",
+            "Teléfono trabajo: "
         }
 
-        Dim obj_textBoxes() As TextBox = {
-            nombre,
-            id,
-            concentracion,
-            departamento,
-            nombre_empresa_est,
-            dir_empresaT_est,
-            dir_res_est
-        }
-        Dim obj_ComboBoxes() As ComboBox = {
-            ano_ingresado,
-            cr_convalidado,
-            institucion_origen_traslado
-        }
-
-        Dim tel() As TextBox = {
-            telr1,
-            telr2,
-            telr3,
-            telc1,
-            telc2,
-            telc3,
-            telt1,
-            telt2,
-            telt3
+        Dim inf_Est() As String = {
+            nombre.Text,
+            id.Text,
+            concentracion.Text,
+            departamento.Text,
+            ano_ingresado.Text,
+            cr_convalidado.Text,
+            institucion_origen_traslado.Text,
+            telr1.Text,
+            telc1.Text,
+            telt1.Text,
+            nombre_empresa_est.Text,
+            dir_empresaT_est.Text,
+            dir_res_est.Text
         }
 
         Using sw As StreamWriter = New StreamWriter("informacion_estudiante_general.txt")
-            For n As Integer = 0 To txt_labels1.Length - 1
-                sw.WriteLine(txt_labels1(n) &
-                             obj_textBoxes(n).Text &
-                             Environment.NewLine)
-            Next
-            sw.WriteLine()
-            For x As Integer = 0 To txt_labels2.Length - 1
-                sw.WriteLine(txt_labels2(x) &
-                             obj_ComboBoxes(x).Text &
+            For n As Integer = 0 To label_Inf_Est.Length - 1
+                sw.WriteLine(label_Inf_Est(n) &
+                             inf_Est(n) &
                              Environment.NewLine)
             Next
         End Using
@@ -77,6 +58,8 @@ Public Class informacion_general_est
     End Sub
 
     Private Sub informacion_general_est_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        For Each tb As TextBox In Me.Controls.OfType(Of TextBox)()
+            tb.Text = "Hola_hola"
+        Next
     End Sub
 End Class
