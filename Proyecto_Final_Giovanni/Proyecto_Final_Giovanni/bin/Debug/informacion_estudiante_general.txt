@@ -1,26 +1,26 @@
-Nombre completo del estudiante: Hola hola9
+Nombre completo del estudiante: Hola_hola
 
-ID del estudiante: Hola hola8
+ID del estudiante: Hola_hola
 
-Concentración: Hola hola7
+Concentración: Hola_hola
 
-Departamento: Hola hola6
+Departamento: Hola_hola
 
-Nombre de la empresa:Hola ComboBox0
+Nombre de la empresa:
 
-Direccion del trabajo del estudiante: Hola ComboBox1
+Direccion del trabajo del estudiante: 
 
-Direccion residencial del estudiante: Hola ComboBox2
+Direccion residencial del estudiante: 
 
-Año de inicio: Hola hola5
+Año de inicio: Hola_hola
 
-Creditos convalidados por la Inter Ponce: Hola hola4
+Creditos convalidados por la Inter Ponce: Hola_hola
 
-Institución de provinencia del estudiante: Hola hola3
+Institución de provinencia del estudiante: Hola_hola
 
-Teléfono residencial: Hola hola2
+Teléfono residencial: Hola_hola
 
-Teléfono celular: Hola hola1
+Teléfono celular: Hola_hola
 
-Teléfono trabajo: Hola hola0
+Teléfono trabajo: Hola_hola
 

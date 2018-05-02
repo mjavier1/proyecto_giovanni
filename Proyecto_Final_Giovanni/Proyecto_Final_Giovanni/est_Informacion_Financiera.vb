@@ -1,5 +1,19 @@
-﻿Public Class est_Informacion_Financiera
+﻿Imports System.IO
+Public Class est_Informacion_Financiera
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim label As String() = New String() {
+            "Total creditos: ",
+            "Total beca: ",
+            "Sub-balance: ",
+            "Balance: "
+        }
+        Dim x As Integer = 0
+        Using sw As StreamWriter = New StreamWriter("informacion_estudiante_beca.txt")
+            For Each tb As TextBox In Me.Controls.OfType(Of TextBox)()
+                sw.WriteLine(label(x) & tb.Text)
+                x += 1
+            Next
+        End Using
         MsgBox("Informacion guardada")
     End Sub
 

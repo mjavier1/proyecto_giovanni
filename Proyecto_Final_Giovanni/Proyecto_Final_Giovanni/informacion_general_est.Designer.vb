@@ -271,20 +271,20 @@ Partial Class informacion_general_est
         '
         'continuar
         '
-        Me.continuar.Location = New System.Drawing.Point(466, 642)
+        Me.continuar.Location = New System.Drawing.Point(252, 642)
         Me.continuar.Name = "continuar"
         Me.continuar.Size = New System.Drawing.Size(75, 39)
         Me.continuar.TabIndex = 33
-        Me.continuar.Text = "Proximo Form >"
+        Me.continuar.Text = "Próximo Form"
         Me.continuar.UseVisualStyleBackColor = True
         '
         'cerrar
         '
-        Me.cerrar.Location = New System.Drawing.Point(373, 642)
+        Me.cerrar.Location = New System.Drawing.Point(466, 642)
         Me.cerrar.Name = "cerrar"
         Me.cerrar.Size = New System.Drawing.Size(75, 39)
         Me.cerrar.TabIndex = 34
-        Me.cerrar.Text = "Salir "
+        Me.cerrar.Text = "Menu principal"
         Me.cerrar.UseVisualStyleBackColor = True
         '
         'someter

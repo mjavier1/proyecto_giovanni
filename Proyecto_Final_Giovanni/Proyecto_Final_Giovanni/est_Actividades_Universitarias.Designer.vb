@@ -31,7 +31,6 @@ Partial Class est_Actividades_Universitarias
         Me.act_value = New System.Windows.Forms.Label()
         Me.someter_inf = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.MetroTile1 = New MetroFramework.Controls.MetroTile()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -104,24 +103,11 @@ Partial Class est_Actividades_Universitarias
         Me.Button1.Text = "Balance estudiante"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'MetroTile1
-        '
-        Me.MetroTile1.ActiveControl = Nothing
-        Me.MetroTile1.Location = New System.Drawing.Point(150, 114)
-        Me.MetroTile1.Name = "MetroTile1"
-        Me.MetroTile1.Size = New System.Drawing.Size(197, 73)
-        Me.MetroTile1.Style = MetroFramework.MetroColorStyle.Silver
-        Me.MetroTile1.TabIndex = 8
-        Me.MetroTile1.Text = "MetroTile1"
-        Me.MetroTile1.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.MetroTile1.UseSelectable = True
-        '
         'est_Actividades_Universitarias
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(542, 474)
-        Me.Controls.Add(Me.MetroTile1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.someter_inf)
         Me.Controls.Add(Me.act_value)
@@ -146,5 +132,4 @@ Partial Class est_Actividades_Universitarias
     Friend WithEvents act_value As Label
     Friend WithEvents someter_inf As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents MetroTile1 As MetroFramework.Controls.MetroTile
 End Class
