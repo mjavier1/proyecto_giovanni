@@ -1,0 +1,4 @@
+Total creditos: 280
+Total beca: 2220
+Sub-balance: 2500
+Balance: 12

@@ -15,7 +15,7 @@ Public Class est_Actividades_Universitarias
             x = x + 1
             act_value.Text = x
             actividad.Focus()
-            Using sw As StreamWriter = New StreamWriter("informacion_estudiante.txt")
+            Using sw As StreamWriter = New StreamWriter("informacion_estudiante_actividades.txt")
                 For Each s In act_universidad
                     sw.WriteLine(s)
                 Next s
@@ -35,4 +35,5 @@ Public Class est_Actividades_Universitarias
         Visible = False
         est_Informacion_Financiera.Show()
     End Sub
+
 End Class

@@ -1,24 +1,26 @@
-Nombre completo del estudiante: dagf
+Nombre completo del estudiante: Hola_hola
 
-ID del estudiante: 5asfd
+ID del estudiante: Hola_hola
 
-Concentración: afwe
+Concentración: Hola_hola
 
-Departamento: efae
+Departamento: Hola_hola
 
-Teléfono residencial: 787
+Nombre de la empresa:
 
-Teléfono celular: 787
+Direccion del trabajo del estudiante: 
 
-Teléfono trabajo: 787
+Direccion residencial del estudiante: 
 
-Direccion del trabajo del estudiante: 787
+Año de inicio: Hola_hola
 
-Direccion residencial del estudiante: 787
+Creditos convalidados por la Inter Ponce: Hola_hola
 
-Año de inicio: Ago - Dic - 2013
+Institución de provinencia del estudiante: Hola_hola
 
-Creditos convalidados por la Inter Ponce: 
+Teléfono residencial: Hola_hola
 
-Institución de provinencia del estudiante: Recinto Bayamon
+Teléfono celular: Hola_hola
+
+Teléfono trabajo: Hola_hola
 

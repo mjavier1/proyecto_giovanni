@@ -118,7 +118,6 @@ Partial Class est_Actividades_Universitarias
         Me.Controls.Add(Me.ComboBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "est_Actividades_Universitarias"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "est_Actividades_Universitarias"
         Me.ResumeLayout(False)
         Me.PerformLayout()
