@@ -155,6 +155,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+<<<<<<< HEAD
+=======
     <Compile Include="nuevo_usuario.Designer.vb">
       <DependentUpon>nuevo_usuario.vb</DependentUpon>
     </Compile>
@@ -167,6 +169,7 @@
     <Compile Include="olvidar.vb">
       <SubType>Form</SubType>
     </Compile>
+>>>>>>> master
     <Compile Include="variables_globales.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -195,12 +198,15 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
     <EmbeddedResource Include="nuevo_usuario.resx">
       <DependentUpon>nuevo_usuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="olvidar.resx">
       <DependentUpon>olvidar.vb</DependentUpon>
     </EmbeddedResource>
+>>>>>>> master
   </ItemGroup>
   <ItemGroup>
     <None Include="2019.pdf" />
