@@ -28,9 +28,13 @@ Partial Class menu_principal
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btn_acceder = New System.Windows.Forms.Button()
+<<<<<<< HEAD
+
+=======
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+>>>>>>> master
         Me.SuspendLayout()
         '
         'tb_usuario
@@ -73,6 +77,9 @@ Partial Class menu_principal
         Me.btn_acceder.TabIndex = 4
         Me.btn_acceder.Text = "Acceder"
         Me.btn_acceder.UseVisualStyleBackColor = True
+<<<<<<< HEAD
+
+=======
         '
         'Button1
         '
@@ -100,6 +107,7 @@ Partial Class menu_principal
         Me.Button4.TabIndex = 8
         Me.Button4.Text = "Cambiar "
         Me.Button4.UseVisualStyleBackColor = True
+>>>>>>> master
         '
         'menu_principal
         '
@@ -116,6 +124,12 @@ Partial Class menu_principal
         Me.Controls.Add(Me.tb_usuario)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "menu_principal"
+<<<<<<< HEAD
+
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+
+=======
+>>>>>>> master
         Me.Text = "Menu principal"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -127,8 +141,13 @@ Partial Class menu_principal
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents btn_acceder As Button
+<<<<<<< HEAD
+
+    Private WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
+=======
     Friend WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+>>>>>>> master
 End Class
