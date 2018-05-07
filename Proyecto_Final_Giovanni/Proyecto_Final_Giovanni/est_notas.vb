@@ -13,7 +13,7 @@ Public Class est_notas
         Conn.Open()
 
         'Dim cod_semestre As String = "2018-30"
-        Dim cod_curso As String = "Selecciona"
+        Dim cod_curso As String = "COMP3300"
         Dim n_curso As String = "Computacion Visual"
         Dim cr_curso As String = "3"
 
@@ -29,15 +29,15 @@ Public Class est_notas
         nota5.Text = 100
     End Sub
     Private Sub Adding_Worksheet_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-        Call AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
+        Call AxAcroPDF1.LoadFile("\2019.pdf")
     End Sub
 
     Public Sub New()
 
         ' This call is required by the designer.
         InitializeComponent()
-        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("~\2019.pdf"))
-        AxAcroPDF1.LoadFile("C:\Users\ecos1435\Documents\dev\proyecto_giovanni\Proyecto_Final_Giovanni\Proyecto_Final_Giovanni\2019.pdf")
+        AxAcroPDF1.Location.Equals(AxAcroPDF1.LoadFile("\2019.pdf"))
+        AxAcroPDF1.LoadFile("\2019.pdf")
         ' Add any initialization after the InitializeComponent() call.
 
     End Sub
@@ -69,7 +69,7 @@ Public Class est_notas
         TextBox1.Text = prom
         nota_final = Val(nota5.Text)
         TextBox2.Text = prom
-        Using sw As StreamWriter = New StreamWriter("informacion_estudiante.txt")
+        Using sw As StreamWriter = New StreamWriter("informacion_estudiante_notas.txt")
             sw.WriteLine(cod_semestre)
             sw.WriteLine(cod_curso)
             sw.WriteLine(n_curso)
@@ -152,6 +152,7 @@ Public Class est_notas
         For Each tb As TextBox In Me.Controls.OfType(Of TextBox)()
             tb.Text = String.Empty
         Next
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -185,5 +186,14 @@ Public Class est_notas
         Catch ex As Exception
 
         End Try
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        nota1.Text = 60
+        nota2.Text = 90
+        nota3.Text = 75
+        nota4.Text = 80
+        nota5.Text = 100
+        nombre_curso.Text = "Computación Visual"
     End Sub
 End Class

@@ -62,8 +62,17 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework">
-      <HintPath>..\..\..\..\..\Downloads\VBcourso (1)\VBcourso (1)\VBcourso\WindowsApplication1\WindowsApplication1\bin\Debug\MetroFramework.dll</HintPath>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -118,6 +127,12 @@
     <Compile Include="informacion_general_est.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="menu_cambiar_contrasena.Designer.vb">
+      <DependentUpon>menu_cambiar_contrasena.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu_cambiar_contrasena.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="menu_principal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +155,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="nuevo_usuario.Designer.vb">
+      <DependentUpon>nuevo_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nuevo_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="olvidar.Designer.vb">
+      <DependentUpon>olvidar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="olvidar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> master
     <Compile Include="variables_globales.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +186,9 @@
     <EmbeddedResource Include="informacion_general_est.resx">
       <DependentUpon>informacion_general_est.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="menu_cambiar_contrasena.resx">
+      <DependentUpon>menu_cambiar_contrasena.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu_principal.resx">
       <DependentUpon>menu_principal.vb</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +198,15 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="nuevo_usuario.resx">
+      <DependentUpon>nuevo_usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="olvidar.resx">
+      <DependentUpon>olvidar.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> master
   </ItemGroup>
   <ItemGroup>
     <None Include="2019.pdf" />

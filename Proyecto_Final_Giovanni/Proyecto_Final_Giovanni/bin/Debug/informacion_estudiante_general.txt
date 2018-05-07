@@ -1,0 +1,26 @@
+Nombre completo del estudiante: Hola_hola
+
+ID del estudiante: Hola_hola
+
+Concentración: Hola_hola
+
+Departamento: Hola_hola
+
+Nombre de la empresa:
+
+Direccion del trabajo del estudiante: 
+
+Direccion residencial del estudiante: 
+
+Año de inicio: Hola_hola
+
+Creditos convalidados por la Inter Ponce: Hola_hola
+
+Institución de provinencia del estudiante: Hola_hola
+
+Teléfono residencial: Hola_hola
+
+Teléfono celular: Hola_hola
+
+Teléfono trabajo: Hola_hola
+

@@ -1,8 +1,8 @@
 ﻿Imports MySql.Data.MySqlClient
 Public Class menu_principal
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        tb_usuario.Text = "124"
-        tb_contrasena.Text = "data_sql"
+        tb_usuario.Text = "123"
+        tb_contrasena.Text = "mj"
     End Sub
 
     Private Sub btn_acceder_Click(sender As Object, e As EventArgs) Handles btn_acceder.Click
@@ -30,27 +30,30 @@ Public Class menu_principal
         c.CommandText = sql_cmd(0) & " userid,password from login where userid ='" & usuario &
                                      "'and password ='" & contrasena & "'"
         mysql_reader = c.ExecuteReader
+
         If mysql_reader.HasRows Then
-            MsgBox("Informacion valida" & Environment.NewLine &
+            MsgBox("Informacion valida" &
+                   Environment.NewLine &
                    "Bienvenido '" & usuario & "'")
             informacion_general_est.Show()
+        Else
+            MsgBox("Nombre de usuario ó su contraseña NO es valida", MsgBoxStyle.Critical, "Error")
         End If
 
-        'If (usuario = "admin" And contrasena = "password_admin") Then
-        'MsgBox("Informacion valida" & Environment.NewLine &
-        '"Bienvenido '" & usuario & "'")
-        'Visible = False 'Hacer que este Form no se vea
+    End Sub
 
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Visible = False
+        menu_cambiar_contrasena.show()
+    End Sub
 
-        'TAREA PARA HACER 
-        'Como Eddie todavia no ha hecho su parte,
-        'lo pongo en comentario porque en su Form
-        'debe haber un boton al proximo Form: NOTAS DEL ESTUDIANTE
-        'Cuando Eddie haga eso, se quita este comentario
-        'informacion_general_est.Show() 'Form #1 del trabajo de Giovanni
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Visible = False
+        olvidar.Show()
+    End Sub
 
-        'est_notas.Show()
-
-        'End If
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        'Visible = False
+        nuevo_usuario.Show()
     End Sub
 End Class
