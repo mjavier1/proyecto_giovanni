@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+/*
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -17,7 +18,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
+*/
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -27,7 +28,7 @@ import java.util.Map;
 public class MainActivity extends Activity {
 
     private EditText editTextUsername, editTextPassword, editTextEmail;
-    private Button btn_login = findViewById(R.id.btn_login);
+
     private ProgressDialog progressDialog;
 
 
@@ -39,7 +40,7 @@ public class MainActivity extends Activity {
         editTextUsername = findViewById(R.id.editText_username);
         editTextPassword = findViewById(R.id.editText_password);
         editTextEmail = findViewById(R.id.editText_email);
-
+        final Button btn_login = findViewById(R.id.btn_login);
         progressDialog = new ProgressDialog(this);
         btn_login.setOnClickListener(
                 new Button.OnClickListener(){
@@ -59,6 +60,7 @@ public class MainActivity extends Activity {
 
         progressDialog.setMessage("Registering user...");
         progressDialog.show();
+        /*
         StringRequest stringRequest = new StringRequest(Request.Method.POST,
                 Constants.URL_REGISTER,
                 new Response.Listener<String>() {
@@ -93,7 +95,7 @@ public class MainActivity extends Activity {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
-
+*/
         Intent intent = new Intent(MainActivity.this, student_info.class);
         startActivity(intent);
     }
