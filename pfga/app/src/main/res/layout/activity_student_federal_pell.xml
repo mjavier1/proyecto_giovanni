@@ -185,6 +185,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271" />
+<<<<<<< HEAD
 
     <Button
         android:id="@+id/button2"
@@ -201,4 +202,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.841" />
+=======
+>>>>>>> master
 </android.support.constraint.ConstraintLayout>
