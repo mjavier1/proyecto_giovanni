@@ -93,8 +93,7 @@ public class MainActivity extends Activity {
             }
         };
 
-        RequestQueue requestQueue = Volley.newRequestQueue(this);
-        requestQueue.add(stringRequest);
+        RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
 
         Intent intent = new Intent(MainActivity.this, student_info.class);
         startActivity(intent);
