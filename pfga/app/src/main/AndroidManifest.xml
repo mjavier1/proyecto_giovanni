@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ecm.pfga">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ecm.pfga">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -20,7 +21,8 @@
         </activity>
         <activity android:name=".student_info" />
         <activity android:name=".student_activities" />
-        <activity android:name=".student_federal_pell"></activity>
+        <activity android:name=".student_federal_pell" />
+        <activity android:name=".Login"></activity>
     </application>
 
 </manifest>
