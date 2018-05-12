@@ -12,17 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".student_info" />
+        <activity android:name=".student_activities" />
+        <activity android:name=".student_federal_pell" />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".student_info" />
-        <activity android:name=".student_activities" />
-        <activity android:name=".student_federal_pell" />
-        <activity android:name=".Login"></activity>
     </application>
 
 </manifest>

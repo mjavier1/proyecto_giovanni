@@ -40,13 +40,13 @@ public class MainActivity extends Activity {
         editTextUsername = findViewById(R.id.editText_username);
         editTextPassword = findViewById(R.id.editText_password);
         editTextEmail = findViewById(R.id.editText_email);
-        final Button btn_login = findViewById(R.id.btn_login);
+        final Button btn_signup = findViewById(R.id.btn_signup);
         progressDialog = new ProgressDialog(this);
-        btn_login.setOnClickListener(
+        btn_signup.setOnClickListener(
                 new Button.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        if (v == btn_login)
+                        if (v == btn_signup)
                             registerUser();
                     }
                 }
